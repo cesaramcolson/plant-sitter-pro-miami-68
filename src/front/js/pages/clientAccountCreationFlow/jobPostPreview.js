@@ -1,24 +1,24 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
-import { Context } from "../store/appContext";
-import "../../styles/home.css";
+import { Context } from "../../store/appContext";
+import "../../../styles/home.css";
 import { useNavigate } from "react-router-dom";
-import calendar from "../../img/calendar.png";
-import watering from "../../img/watering.png";
-import cleaning from "../../img/cleaning.png";
-import pruning from "../../img/pruning.png";
-import repotting from "../../img/repotting.png";
-import pestControl from "../../img/pestControl.png";
-import succulents from "../../img/succulents.jpg";
-import orchids from "../../img/orchids.jpg";
-import unusual from "../../img/unusual.jpg";
-import carnivorous from "../../img/carnivorous.jpg";
-import usual from "../../img/usual.jpg";
-import landscape from "../../img/landscape.jpg";
-import outdoors from "../../img/outdoors.jpg";
-import veggies from "../../img/veggies.jpg";
-import { JobDates } from "../component/JobDates";
-import ShovelAnimation from "../component/ShovelAnimation";
+import calendar from "../../../img/calendar.png";
+import watering from "../../../img/watering.png";
+import cleaning from "../../../img/cleaning.png";
+import pruning from "../../../img/pruning.png";
+import repotting from "../../../img/repotting.png";
+import pestControl from "../../../img/pestControl.png";
+import succulents from "../../../img/succulents.jpg";
+import orchids from "../../../img/orchids.jpg";
+import unusual from "../../../img/unusual.jpg";
+import carnivorous from "../../../img/carnivorous.jpg";
+import usual from "../../../img/usual.jpg";
+import landscape from "../../../img/landscape.jpg";
+import outdoors from "../../../img/outdoors.jpg";
+import veggies from "../../../img/veggies.jpg";
+import { JobDates } from "../../component/JobDates";
+import ShovelAnimation from "../../component/ShovelAnimation";
 
 
 export const JobPost2 = () => {
